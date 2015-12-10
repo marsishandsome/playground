@@ -1,2 +1,3 @@
-# maven-plugin101: Simple Maven Plugin Development Example
+# Playground
+- maven-plugin101: Simple Maven Plugin Development Example
 
