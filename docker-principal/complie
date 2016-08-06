@@ -1,0 +1,7 @@
+gcc -o target/clone src/clone.c 
+gcc -o target/uts src/uts.c 
+gcc -o target/ipc src/ipc.c 
+gcc -o target/pid src/pid.c 
+gcc -o target/mount src/mount.c 
+gcc -o target/docker src/docker.c 
+
