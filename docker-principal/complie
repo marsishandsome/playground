@@ -5,4 +5,6 @@ gcc -o target/pid src/pid.c
 gcc -o target/mount src/mount.c 
 gcc -o target/docker src/docker.c 
 gcc -o target/user src/user.c
+gcc -o target/deadloop src/deadloop.c
+gcc -o target/memory src/memory.c
 
