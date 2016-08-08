@@ -4,4 +4,5 @@ gcc -o target/ipc src/ipc.c
 gcc -o target/pid src/pid.c 
 gcc -o target/mount src/mount.c 
 gcc -o target/docker src/docker.c 
+gcc -o target/user src/user.c
 

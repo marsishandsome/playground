@@ -26,7 +26,7 @@ int container_main(void* arg)
  
 int main()
 {
-    printf("Parent - start a container!\n");
+    printf("Parent [%5d] - start a container!\n", getpid());
     /* 调用clone函数，其中传出一个函数，
      * 还有一个栈空间的（为什么传尾指针，因为栈是反着的） */
     int container_pid = clone(container_main, container_stack+STACK_SIZE, 

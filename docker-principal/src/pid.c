@@ -26,7 +26,7 @@ int container_main(void* arg)
 
 int main()
 {
-    printf("Parent - start a container!\n");
+    printf("Parent [%5d] - start a container!\n", getpid());
     /*启用CLONE_NEWPID Namespace隔离 */
     int container_pid = clone(container_main, container_stack+STACK_SIZE, 
             CLONE_NEWUTS | CLONE_NEWPID | SIGCHLD, NULL); 
